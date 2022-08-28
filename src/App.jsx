@@ -1,20 +1,22 @@
-import consofLogo from './assets/img/consofCS.svg';
-import circuloCS from './assets/img/circuloCS.svg';
-import './App.css';
+import Header from './assets/components/Header';
+import NavBar from './assets/components/NavBar';
+import Carousel from './assets/components/Carousel';
+import Prueba from './assets/components/prueba';
+
 
 function App() {
 
   return (
-    <div className="App">
-      <div>
-        <a></a>
-        <a href="https://www.consofchile.cl/" target="_blank">
-          <img src={consofLogo} className="logo" alt="Consof logo" />
-          <img src={circuloCS} className="circle" alt="Consof logo" />         
-        </a>
+    <>
+      <div className="container">
+        <Header />
+        <NavBar />
+
+        <Carousel />
+        <Prueba />
+        <Prueba />
       </div>
-      <h2>Matriz Proyectos</h2>
-    </div>
+    </>
   )
 }
 

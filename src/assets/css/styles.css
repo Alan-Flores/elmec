@@ -1,0 +1,43 @@
+.nav-link {
+    color: dodgerblue;
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    color: goldenrod;
+}
+
+.nav-item {
+    margin: 10px 40px;
+    text-align: center;
+}
+
+.logo {
+    height: 100px;
+    margin-top: 20px;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.nav-background {
+    width: 100%;
+}
+
+.header {
+    height: 120px;
+}
+
+.contact {
+    margin-top: 50px;
+}
+
+.carousel {
+    height: 350px;
+    width: 100%;
+}
+
+.d-block.w-100 {
+    height: 350px;
+}
