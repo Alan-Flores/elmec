@@ -41,3 +41,41 @@
 .d-block.w-100 {
     height: 350px;
 }
+
+.title {
+    margin: 50px 0 50px 0;
+    text-align: center;
+    color: dodgerblue;
+}
+
+.line {
+    height: 10px;
+    width: 15%;
+    background-color: darkorange;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 22rem;
+    margin: 20px;
+    background-color: #F0F0F0;
+    border: none;
+}
+
+.icon {
+    height: 90px;
+    width: 90px;
+    margin: 5px;
+    margin-bottom: 30PX;
+    color: #3D5975;
+}
+
+.card-title {
+    color: #3D5975;
+}
+
+.card-img-top {
+    height: 230px;
+}
