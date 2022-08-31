@@ -22,10 +22,10 @@ const NavBar = () => {
                             <a className="nav-link" href="#">PROYECTOS</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">NOTICIAS ELMEC</a>
+                            <a className="nav-link" href="#">NOTICIAS</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">TRABAJA CON NOSOTROS</a>
+                            <a className="nav-link" href="#">COLABORADORES</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">CONTACTO</a>

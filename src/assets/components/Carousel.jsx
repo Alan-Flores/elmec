@@ -4,7 +4,7 @@ import tabBurger from '../img/carousel/tabburger.jpg'
 
 const Carousel = () => {
   return (
-    <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div id="carouselExampleDark" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -12,24 +12,27 @@ const Carousel = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active" data-bs-interval="10000">
-          <img src={Burger} className="d-block w-100" alt="350"/>
-            <div className="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+          <img src={Burger} className="w-100" alt="350"/>
+            <div className="carousel-caption">
+              <h5 className="title-carousel">Servicios eléctricos</h5>
+              <div className="line-carousel"></div>
+              <p className="text-carousel">Instalaciones eléctricas en distintos locales de comida rápida.</p>
             </div>
         </div>
         <div className="carousel-item" data-bs-interval="2000">
-          <img src={tabBurger} className="d-block w-100" alt="350"/>
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+          <img src={tabBurger} className="w-100" alt="350"/>
+            <div className="carousel-caption">
+              <h5 className="title-carousel">Tableros</h5>
+              <div className="line-carousel"></div>
+              <p className="text-carousel">Desarrollo de tableros eléctricos a medida y según necesidades eléctricas del proyecto. </p>
             </div>
         </div>
         <div className="carousel-item">
-          <img src={Penon} className="d-block w-100" alt="350"/>
-            <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+          <img src={Penon} className="w-100" alt="350"/>
+            <div className="carousel-caption">
+              <h5 className="title-carousel">Alimentadores</h5>
+              <div className="line-carousel"></div>
+              <p className="text-carousel">Realizamos tendido de conductores en diversas industrias, cuidando la calidad en todo momento.</p>
             </div>
         </div>
       </div>

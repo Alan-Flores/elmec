@@ -1,0 +1,67 @@
+.whatsapp-ventas {
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    bottom: 30px;
+    right: 3%;
+    width: 65px;
+    height: 65px;
+    background-color: royalblue;
+    border-radius: 50%;
+}
+
+.ventas {
+    height: 40px;
+    width: 40px;
+    color: rgb(253, 255, 253);
+    
+}
+
+.whatsapp-tecnico {
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    bottom: 120px;
+    right: 3%;
+    width: 65px;
+    height: 65px;
+    background-color: royalblue;
+    border-radius: 50%;
+}
+
+.tecnico {
+    height: 40px;
+    width: 40px;
+    color: rgb(253, 255, 253);
+}
+
+.whatsapp-text {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    display: none;
+}
+
+.btn-lg {
+    text-decoration: none;
+}
+
+.whatsapp-text:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.whatsapp-tecnico:hover {
+    background-color: darkorange;
+    width: 220px;
+    border-radius: 20px;
+    transition: 500ms;
+}
+
+.whatsapp-ventas:hover {
+    background-color: darkorange;
+    width: 220px;
+    border-radius: 20px;
+    transition: 500ms;
+}
