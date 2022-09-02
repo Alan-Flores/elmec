@@ -4,6 +4,7 @@ import Carousel from './assets/components/Carousel';
 import Servicios from './assets/components/Servicios';
 import Whatsapp from './assets/components/Whatsapp';
 import Nosotros from './assets/components/Nosotros';
+import Objetivos from './assets/components/Objetivos';
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
         <NavBar />
         <Carousel />
         <Servicios />
+        <Nosotros />
+        <Objetivos/>
         <Whatsapp />
       </div>
     
