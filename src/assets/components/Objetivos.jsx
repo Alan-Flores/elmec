@@ -1,4 +1,3 @@
-import Video from '../img/video.mp4';
 
 const Objetivos = () => {
     return (
