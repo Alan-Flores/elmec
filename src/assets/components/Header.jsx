@@ -1,11 +1,12 @@
 import Elmec from '../img/elmec.svg'
+import FiestasPatrias from '../img/remolinoElmec.jpg'
 
 const Header = () => {
     return (
 
         <div className="row header">
             <div className="col-12">
-                <img src={Elmec} className="logo" alt="40" />
+                <img src={FiestasPatrias} className="logo" alt="40" />
                 <div className="contact">
                     <a>Fono +56 2 2613 8929</a>
                     <br></br>
