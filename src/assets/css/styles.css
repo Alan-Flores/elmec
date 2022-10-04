@@ -142,6 +142,18 @@
 .nosotros {
     background-color: #F0F0F0;
     border-radius: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+}
+
+.text-nosotros {
+    width: 90%;
+    display: table;
+    margin: 20px auto;
+    text-align: justify;
 }
 
 .mision-vision {
@@ -157,7 +169,7 @@
     width: 90%;
     display: table;
     margin: 0 auto;
-    text-align: center;
+    text-align: justify;
     color: white;
 }
 
@@ -165,10 +177,30 @@
     width: 90%;
     display: table;
     margin: 0 auto;
-    text-align: center;
+    text-align: justify;
     color: white;
 }
 
 .title.objetivos {
     color: white;
+}
+
+.media-nosotros {
+    width: 50%;
+}
+
+.div-img-nosotros {
+    width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+    .media-nosotros {
+        width: 100%;
+    }
+
+    .div-img-nosotros {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
 }

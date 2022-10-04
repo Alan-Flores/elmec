@@ -2,6 +2,7 @@ import Burger from '../img/carousel/burger.jpg'
 import Penon from '../img/carousel/tabpenon.jpg'
 import tabBurger from '../img/carousel/tabburger.jpg'
 import Chile from '../img/carousel/chile.jpg'
+import Mantencion from '../img/carousel/mantencion.jpg'
 
 const Carousel = () => {
   return (
@@ -10,6 +11,7 @@ const Carousel = () => {
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active" data-bs-interval="10000">
@@ -18,6 +20,14 @@ const Carousel = () => {
             <h5 className="title-carousel">Servicios eléctricos</h5>
             <div className="line-carousel"></div>
             <p className="text-carousel">Instalaciones eléctricas en distintos locales de comida rápida.</p>
+          </div>
+        </div>
+        <div className="carousel-item" data-bs-interval="2000">
+          <img src={Mantencion} className="w-100" alt="350" />
+          <div className="carousel-caption">
+            <h5 className="title-carousel">Mantenciones-Emergencias</h5>
+            <div className="line-carousel"></div>
+            <p className="text-carousel">Realizamos atenciones de emergencias, atendiendo todas tus necesidades eléctricas.</p>
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="2000">
