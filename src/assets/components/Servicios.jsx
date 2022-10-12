@@ -4,12 +4,14 @@ import Retail from '../img/card/retail.jpg'
 import Habitacional from '../img/card/habitacional.jpg'
 import Tablero from '../img/card/tableros.jpg'
 import Redes from '../img/card/redes.jpg'
+import Rotulos from '../img/card/rotulos.jpg'
+import CodeQr from '../img/card/codeqr.jpg'
 import { GiFactory } from 'react-icons/gi'
 import { ImOffice } from 'react-icons/im'
 import { BsShop } from 'react-icons/bs'
-import { MdOutlineMapsHomeWork } from 'react-icons/md'
+import { MdOutlineMapsHomeWork, MdOutlineQrCode2 } from 'react-icons/md'
 import { MdOutlineElectricalServices } from 'react-icons/md'
-import { FaNetworkWired } from 'react-icons/fa'
+import { FaNetworkWired, FaMapSigns } from 'react-icons/fa'
 
 
 const DataCard = [
@@ -48,7 +50,19 @@ const DataCard = [
         icon: <FaNetworkWired className='icon' />,
         title: 'REDES',
         text: 'Realizamos todo tipo de cableados en cobre y fibra óptica, dejando todo el canal completo de los puntos de la red, con su certificado correspondientes, armado y conexionado de rack de comunicación, para sistemas de redes, telefonía, circuito cerrado de televisión, control de acceso, etc. Trabajamos con material de calidad, cumpliendo todas las exigencias de la normativa y las especificaciones técnicas asociadas.'
-    }
+    },
+    {
+        img: Rotulos,
+        icon: <FaMapSigns className='icon' />,
+        title: 'ROTULOS',
+        text: 'Fabricamos rótulos a la medida y necesidad de cada cliente, etiquetas grabadas bicolor bajo relieve en plástico A.B.S. (Acrilonitrilo butadieno estireno), material de gran resistencia que ayuda en la marcación de alta calidad y aportan estética industrial a sus productos.'
+    },
+    {
+        img: CodeQr,
+        icon: <MdOutlineQrCode2 className='icon' />,
+        title: 'APLICACIONES QR',
+        text: 'Realizamos aplicaciones en códigos QR, para distintas aplicaciones, por ejemplo, seguimiento en la información de un tablero eléctrico, bitácoras de maquinarias, historial de mantenimientos, detalle y/o registro de modificaciones, etc. El limite de aplicaciones, lo decides tú.'
+    }        
 ]
 
 

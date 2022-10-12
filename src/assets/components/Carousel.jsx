@@ -3,6 +3,7 @@ import Penon from '../img/carousel/tabpenon.jpg'
 import tabBurger from '../img/carousel/tabburger.jpg'
 import Chile from '../img/carousel/chile.jpg'
 import Mantencion from '../img/carousel/mantencion.jpg'
+import Rotulos from '../img/carousel/rotulos.jpg'
 
 const Carousel = () => {
   return (
@@ -12,9 +13,18 @@ const Carousel = () => {
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
       </div>
       <div className="carousel-inner">
-        <div className="carousel-item active" data-bs-interval="10000">
+        <div className="carousel-item active" data-bs-interval="5000">
+          <img src={Rotulos} className="w-100" alt="350" />
+          <div className="carousel-caption">
+            <h5 className="title-carousel">Rótulos y grabados</h5>
+            <div className="line-carousel"></div>
+            <p className="text-carousel">Realizamos todo tipo de rótulos para distintas aplicaciones.</p>
+          </div>
+        </div>
+        <div className="carousel-item" data-bs-interval="2000">
           <img src={Burger} className="w-100" alt="350" />
           <div className="carousel-caption">
             <h5 className="title-carousel">Servicios eléctricos</h5>
@@ -25,7 +35,7 @@ const Carousel = () => {
         <div className="carousel-item" data-bs-interval="2000">
           <img src={Mantencion} className="w-100" alt="350" />
           <div className="carousel-caption">
-            <h5 className="title-carousel">Mantenciones-Emergencias</h5>
+            <h5 className="title-carousel">Emergencias</h5>
             <div className="line-carousel"></div>
             <p className="text-carousel">Realizamos atenciones de emergencias, atendiendo todas tus necesidades eléctricas.</p>
           </div>
@@ -38,7 +48,7 @@ const Carousel = () => {
             <p className="text-carousel">Desarrollo de tableros eléctricos a medida y según necesidades eléctricas del proyecto. </p>
           </div>
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item" data-bs-interval="2000">
           <img src={Penon} className="w-100" alt="350" />
           <div className="carousel-caption">
             <h5 className="title-carousel">Alimentadores</h5>
