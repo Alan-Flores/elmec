@@ -1,0 +1,14 @@
+.vid {
+    height: 80vh;
+    
+}  
+.vid video {
+  height: 100%;
+  width: 100%;
+}
+
+.btn-vid {
+  display: table;
+  margin: 0 auto;
+  margin-top: 10px;
+}

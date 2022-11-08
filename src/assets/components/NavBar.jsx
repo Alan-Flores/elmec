@@ -1,6 +1,8 @@
 import { FaFacebookF } from 'react-icons/fa'
 
+
 const NavBar = () => {
+
     return (
         <nav className="navbar navbar-expand-lg sticky-top">
             <div className="container-fluid">
@@ -28,7 +30,10 @@ const NavBar = () => {
                             <a className="nav-link" href="#">COLABORADORES</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="https://www.facebook.com/elmecingenieria" target="_blank"><FaFacebookF className="icon-menu"/></a>
+                            <a className="nav-link" href="https://elmec.cl/">VOLVER</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="https://www.facebook.com/elmecingenieria" target="_blank"><FaFacebookF className="icon-menu" /></a>
                         </li>
                     </ul>
                 </div>

@@ -1,9 +1,12 @@
 import Elmec from '../img/elmec.svg'
 
+
 const Header = () => {
+
     return (
 
         <div className="row header">
+
             <div className="col-12">
                 <img src={Elmec} className="logo" alt="40" />
                 <div className="contact">
@@ -14,7 +17,6 @@ const Header = () => {
             </div>
 
         </div>
-
     )
 }
 

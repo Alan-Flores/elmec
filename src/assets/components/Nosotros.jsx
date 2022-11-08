@@ -3,8 +3,8 @@ import Weare from '../img/nosotros.png'
 
 const Nosotros = () => {
     return (
- 
-            <div id="nosotros" className="row mb-5 nosotros">
+
+        <div id="nosotros" className="row nosotros">
                 <div className="media-nosotros">
                     <h1 className="title">
                         NOSOTROS
@@ -23,7 +23,7 @@ const Nosotros = () => {
                 <div className="div-img-nosotros">
                     <img src={Weare} alt="Elmec" className="img-nosotros" />
                 </div>
-            </div>
+            </div >
 
     )
 }

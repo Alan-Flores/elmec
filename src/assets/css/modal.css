@@ -1,0 +1,9 @@
+.modal-transition-appear {
+    
+    transition: transform 900ms;
+    transform: translateY(-300%);
+}
+
+.modal-transition-appear-active {
+    transform: translateY(0);
+}
