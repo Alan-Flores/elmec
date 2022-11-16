@@ -5,6 +5,8 @@ import Servicios from '../components/Servicios'
 import Whatsapp from '../components/Whatsapp'
 import Nosotros from '../components/Nosotros'
 import Objetivos from '../components/Objetivos'
+import Footer from '../components/footer'
+import Contacto from '../components/Contacto'
 
 const AppRouter = () => {
     return (
@@ -21,7 +23,12 @@ const AppRouter = () => {
             </div>
             <Nosotros />
             <Objetivos />
+            <div className='container'>
+                <Contacto />
+            </div>
+            <Footer />
             <Whatsapp />
+            
         </>
     )
 }

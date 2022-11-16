@@ -207,9 +207,22 @@
         width: 100%;
     }
 
+    .text-nosotros {
+        width: 90%;
+    }
+
     .div-img-nosotros {
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    .contacto-web {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .input-web {
+        width: 100%;
     }
 }
 
@@ -218,3 +231,15 @@
     width: 25px;
     margin-top: -10px;
 }
+
+.img-sec {
+    width: 150px;
+    display:table;
+    margin:0 auto;
+}
+
+.direccion {
+    display:table;
+    margin:0 auto;
+}
+
