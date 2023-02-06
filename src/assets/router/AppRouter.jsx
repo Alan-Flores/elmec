@@ -26,9 +26,11 @@ const AppRouter = () => {
             <div className='container'>
                 <Contacto />
             </div>
-            <Footer />
+            <div className='footer'>
+                <Footer />
+            </div>
             <Whatsapp />
-            
+
         </>
     )
 }

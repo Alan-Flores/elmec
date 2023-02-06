@@ -19,6 +19,7 @@
 
 .navbar {
     background-color: white;
+    position: sticky;
 }
 
 .nav-background {
@@ -37,6 +38,22 @@
     margin-top: 40px;
     float: right;
 }
+
+.kenburns-left {
+	animation: kenburns-left 2s ease-out both;
+}
+
+ @keyframes kenburns-left {
+    0% {
+      transform: scale(1) translate(0, 0);
+      transform-origin: 16% 50%;
+    }
+    100% {
+      transform: scale(1.25) translate(-20px, 15px);
+      transform-origin: left;
+    }
+  }
+  
 
 .carousel {
     width: 100%;
@@ -250,3 +267,49 @@
     margin:0 auto;
 }
 
+.footer {
+    background-color: rgba(18, 88, 158, .8);
+    height: 120px;
+    width: 100%;
+}
+
+.logo-footer {
+    width: 20%;
+    margin: 2%;
+    position: absolute;
+    justify-content: center;
+}
+
+.text-footer {
+    color: white;
+    margin: 3% 0% 0% 50%;
+}
+
+.jello-horizontal:hover {
+	animation: jello-horizontal 2s infinite both;
+}
+
+ @keyframes jello-horizontal {
+    0% {
+      transform: scale3d(1, 1, 1);
+    }
+    30% {
+      transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  

@@ -38,6 +38,9 @@ const NavBar = () => {
                         <li className="nav-item">
                             <a className="nav-link" href="https://qr.elmec.cl">INTRANET</a>
                         </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="https://bodega.elmec.cl">BODEGA</a>
+                        </li>
                     </ul>
                 </div>
             </div>

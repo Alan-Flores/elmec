@@ -79,7 +79,7 @@ const Servicios = () => {
                     {DataCard.map((item, index) => {
                         return (
                             <div className="card" key={index}>
-                                <img src={item.img} className="card-img-top mt-2" alt="industria" />
+                                <img src={item.img} className="card-img-top mt-2 jello-horizontal" alt="industria" />
                                 <div className="card-body row justify-content-center">
                                     {item.icon}
                                     <h4 className="card-title row justify-content-center">{item.title}</h4>
