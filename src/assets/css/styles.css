@@ -8,7 +8,7 @@
 }
 
 .nav-item {
-    margin: 10px 40px;
+    margin: 10px 1rem;
     text-align: center;
 }
 
@@ -31,23 +31,6 @@
 
 .w-100 {
     height: 510px;
-}
-
-@media screen and (max-width: 1000px) {
-    .contact {
-        display: none;
-    }
-
-    .logo {
-        width: 80%;
-        margin-left: 2%;
-        position: absolute;
-        justify-content: center;
-    }
-
-    .w-100 {
-        height: 200px;
-    }
 }
 
 .contact {
@@ -75,7 +58,7 @@
 
 .text-carousel {
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .line-carousel {
@@ -223,6 +206,30 @@
 
     .input-web {
         width: 100%;
+    }
+
+    .title-carousel {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .text-carousel {
+        font-size: 1rem;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .logo {
+        width: 80%;
+        margin-left: 2%;
+        position: absolute;
+        justify-content: center;
+    }
+
+    .w-100 {
+        height: 200px;
     }
 }
 

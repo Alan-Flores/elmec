@@ -1,7 +1,6 @@
-import { Route, Routes } from "react-router-dom"
-import ModalPelicula from "./assets/components/ModalPelicula"
-import AppRouter from "./assets/router/AppRouter"
-
+import { Route, Routes } from 'react-router-dom'
+import ModalPelicula from './assets/components/ModalPelicula'
+import AppRouter from './assets/router/AppRouter'
 
 
 
