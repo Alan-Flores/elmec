@@ -274,8 +274,8 @@
 }
 
 .logo-footer {
-    width: 20%;
-    margin: 2%;
+    width: 300px;
+    margin: 30px;
     position: absolute;
     justify-content: center;
 }

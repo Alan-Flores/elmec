@@ -1,7 +1,7 @@
 
 const Objetivos = () => {
     return (
-        <div className="mb-5 mision-vision">
+        <div id="mision" className="mb-5 mision-vision">
             <h1 className="title objetivos">
                 MISIÓN
             </h1>

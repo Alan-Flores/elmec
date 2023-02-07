@@ -23,7 +23,7 @@ const Contacto = () => {
 
     return (
         <div>
-            <div className="row justify-content-center mb-5" id="servicios">
+            <div id="contacto" className="row justify-content-center mb-5">
                 <h1 className="title">
                     CONTACTO
                 </h1>

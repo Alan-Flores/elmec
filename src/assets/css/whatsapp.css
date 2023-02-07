@@ -2,7 +2,7 @@
     position: fixed;
     justify-content: center;
     align-items: center;
-    bottom: 135px;
+    bottom: 315px;
     right: 3%;
     width: 65px;
     height: 65px;
@@ -35,6 +35,25 @@
     color: rgb(253, 255, 253);
 }
 
+.btn-subir {
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    bottom: 135px;
+    right: 3%;
+    width: 65px;
+    height: 65px;
+    background-color: royalblue;
+    border-radius: 50%;
+}
+
+.logo-subir {
+    height: 40px;
+    width: 40px;
+    color: rgb(253, 255, 253);
+    
+}
+
 .whatsapp-text {
     font-size: 20px;
     color: white;
@@ -60,6 +79,13 @@
 }
 
 .whatsapp-ventas:hover {
+    background-color: darkorange;
+    width: 220px;
+    border-radius: 20px;
+    transition: 500ms;
+}
+
+.btn-subir:hover {
     background-color: darkorange;
     width: 220px;
     border-radius: 20px;
